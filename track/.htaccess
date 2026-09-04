@@ -1,0 +1,13 @@
+RewriteEngine on
+Options +FollowSymlinks 
+
+IndexIgnore *
+RewriteRule \.htaccess - [F]
+
+RewriteBase /track/
+
+RewriteRule  ^(click\/data\/)(.*)$ index.php?page=click/data/$2 [QSA,L]
+
+RewriteRule  ^(click\/conversion\/)(.*)$ index.php?page=click/conversion/$2 [QSA,L]
+
+

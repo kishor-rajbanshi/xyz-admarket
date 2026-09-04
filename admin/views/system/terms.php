@@ -1,0 +1,161 @@
+<?php 
+$this->dispatch("layout/header/3/_33");
+
+$language_enabled=$this->get_variable('language_enabled');
+
+if($language_enabled ==1)
+$localedata=$this->get_result('localedata');
+else
+$localedata=array();
+
+$localedatacount=count($localedata);
+
+?>
+<script type="text/javascript">
+function termsUpdate()
+{
+	document.getElementById('terms').submit();
+}
+
+
+function show_tab(tab)
+{
+	$('.tabcontentclass').hide();
+
+	$('.tabclass').removeClass('tab-selection');
+	
+	$('#showtab'+tab).show();
+	$('#tb'+tab).addClass('tab-selection');
+
+	$('#tab'+tab).val(tab);
+}
+
+</script>
+<?php
+
+$data=$this->get_result('data');
+$data=$data[0];
+
+$data1=$this->get_result('data1');
+$data1=$data1[0];
+
+$advterm=$this->get_variable('advterm');
+
+
+$form=$this->create_form();
+$form->start("terms",$this->make_url("system/terms"),"post");?>
+
+
+<div class="sub_menu_main"><?php echo $this->get_label('terms conditions');?></div>
+
+<?php $this->dispatch("links/links/58");?>
+
+
+
+<table style="width: 100%;" class="inner-table" >
+<tr class="statistics_header">
+
+<td onclick="show_tab(0);"  id="tb0" class="tabclass" style="width: 120px;"><?php echo $this->get_label('default content');?></td>
+
+
+<?php 
+if($language_enabled ==1 && $localedatacount >0)
+{
+	foreach($localedata as $key1=>$value1){?>
+	 <td onclick="show_tab(<?php echo $value1['id'];?>);"  id="tb<?php echo $value1['id'];?>" class="tabclass" style="width: 100px;"><?php echo $value1['description']; ?></td>
+<?php }}?>
+  
+<td class="tabclass"></td>
+</tr>
+    
+    <tr> 
+    <td colspan="<?php echo $localedatacount+2;?>" class="tab-border" style="border-bottom:0px;">
+	<table style="width: 100%" cellpadding="0" cellspacing="0">
+	<tr>
+    <td>
+    <input type="radio" name="advterm" id="term1" value="1" <?php if($advterm==1){?>checked="checked"<?php }?> onclick="LoadOptions(1)" /><?php echo $this->get_label('advertiser terms');?>
+    &nbsp;&nbsp;
+    <input type="radio" name="advterm" id="term2" value="2" <?php if($advterm==2){?>checked="checked"<?php }?> onclick="LoadOptions(2)" /><?php echo $this->get_label('publisher terms');?>
+    </td>
+    </tr>
+    </table>   
+    </td>
+    </tr>
+    
+    
+    
+
+	<tr id="showtab0" class="tabcontentclass">
+	<td colspan="<?php echo $localedatacount+2;?>" class="tab-border">
+	
+	<table style="width: 100%" cellpadding="0" cellspacing="0">
+  	 <tr>
+  	 <td style="text-align: right;"><?php echo $this->get_label('compulsory message');?>&nbsp;</td>
+  	 </tr>	
+		
+	
+     <tr>
+     <td class="adt1" style="display: none;">
+     <textarea name="description" id="description" rows="58" style="width: 99%;"><?php echo $data['description'];?></textarea><span class="compulsory">*</span>
+     </td>
+    
+     <td class="adt2" style="display: none;">
+     <textarea name="description1" id="description1" rows="58" style="width: 99%;"><?php echo $data1['description'];?></textarea><span class="compulsory">*</span>
+     </td>
+ 	 </tr>
+	  
+	  <tr>
+	  <td style="height:50px;text-align: center;">
+	  <?php if(!DEMO_MODE) {?>
+	  <input type="button" name="tbutton_0" value="<?php echo $this->get_label('update'); ?>" onclick="termsUpdate()">
+	  <?php }?>
+	  </td>
+	  </tr>  
+	</table>  
+	</td>
+	</tr>  
+ 
+
+<?php if($language_enabled ==1 && $localedatacount >0)
+{
+	foreach($localedata as $key1=>$value1){?>
+	<tr id="showtab<?php echo $value1['id'];?>" class="tabcontentclass">
+	<td colspan="<?php echo $localedatacount+2;?>" class="tab-border">
+	
+	<table style="width: 100%" cellpadding="0" cellspacing="0">
+	  <tr>
+      <td class="adt1" style="display: none;"><textarea rows="58" style="width: 99%;" name="description_<?php echo $value1['id'];?>" id="description_<?php echo $value1['id'];?>"><?php echo $data[$value1['id'].'_description'];?></textarea></td>
+  	  <td class="adt2" style="display: none;"><textarea rows="58" style="width: 99%;" name="description1_<?php echo $value1['id'];?>" id="description1_<?php echo $value1['id'];?>"><?php echo $data1[$value1['id'].'_description'];?></textarea></td>
+	  </tr>
+	  
+	  <tr>
+	  <td style="height:50px;text-align: center;">
+	  <?php if(!DEMO_MODE) {?>
+	  <input type="button" name="tbutton_<?php echo $value1['id'];?>" value="<?php echo $this->get_label('update'); ?>" onclick="termsUpdate()">
+	  <?php }?>
+	  </td>
+	  </tr>  
+	</table>  
+	</td>
+	</tr>  
+<?php }}?>
+</table>
+
+<?php $form->end(); ?>
+<script type="text/javascript">
+function LoadOptions(id)
+{
+	$('.adt1').hide();
+	$('.adt2').hide();
+	
+	if(id==1)
+	$('.adt1').show();
+	else if(id==2)
+	$('.adt2').show();
+}
+
+show_tab(0);
+
+LoadOptions(<?php echo $advterm;?>);
+</script>
+<?php $this->dispatch("layout/footer");?>

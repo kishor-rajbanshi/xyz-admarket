@@ -1,0 +1,181 @@
+<style>
+#system_notice_area 
+{
+	position: fixed;
+	top: 0px;
+	z-index: 100001;
+	
+}
+
+
+
+
+.system_notice_area 
+{
+	/*min-width: 250px;
+	max-width: 600px;*/
+	display: none;
+	text-align: left;
+	font-size: 15px;
+	color : #ffffff !important;
+}
+
+#system_notice_area_dismiss
+{
+	color: #ffffff;
+	cursor: pointer;
+	padding: 0px 8px;
+	font-weight: 600;
+	font-size: 12px;
+}
+.system_notice_area_style1 
+{
+	    display: block;
+    background: #04A84F;
+	    margin-top: 0px;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(255,255,255,0.1) 20px, rgba(255,255,255,0.1) 40px );
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    padding: 2px 15px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    border: 1px solid;
+    margin: 10px 0;
+	transition:5s;
+}
+
+.system_notice_area_style0 
+{
+	display:block;
+	background: #CD0101;
+	background-image: repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(255,255,255,0.1) 20px, rgba(255,255,255,0.1) 40px );
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    border: 1px solid;
+    margin: 10px 0;
+}
+
+.fa-check-circle
+{
+	padding: 6px;
+	font-size: 25px;
+}
+
+.fa-exclamation-circle
+{
+	padding: 6px;
+	font-size: 25px;
+}
+
+.system_notice_area_style0 .notice-icon-box
+{
+	
+	
+}
+
+.system_notice_area_style1 .notice-icon-box
+{
+	/*background-color: #007736;*/
+	width: 35px;
+}
+
+.notice-icon-box img
+{
+	/*width: 30px;
+	height: 30px;*/
+	padding: 5px;
+}
+
+
+
+.system_notice_area_style0 #system_notice_area_dismiss 
+{
+	color: #ffffff;
+}
+
+.system_notice_area_style_hidden 
+{
+	display:none;
+}
+
+.notice-content-box
+{
+	padding-left: 5px;
+}
+
+.notice-close-box
+{
+	width:30px;
+	padding-left: 5px;
+	text-align: right;
+}
+
+</style>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		
+		var cookie_date = new Date ( );  // current date & time
+		  cookie_date.setTime ( cookie_date.getTime() - 1 );
+		  document.cookie='_notice_flash=;expires='+cookie_date.toGMTString();
+		  document.cookie='_notice_flash_type=;expires='+cookie_date.toGMTString();
+
+
+		  set_notice_box_center();	
+
+			
+		jQuery('.system_notice_area_style0,.system_notice_area_style1').animate({
+			opacity : 'show',
+			height : 'show'
+		}, 500);
+
+		jQuery('#system_notice_area_dismiss').click(function() {
+			jQuery('#system_notice_area').animate({
+				opacity : 'hide',
+				height : 'hide'
+			}, 500);
+
+		});
+	});
+
+
+
+
+	$(window).resize(function()
+	{
+		set_notice_box_center();	
+	});
+
+
+	function set_notice_box_center()
+	{
+	    if($('#system_notice_area').length > 0)
+	    {
+		    body_width   = $('body').outerWidth();
+		    notice_width = $('#system_notice_area').outerWidth();
+
+		    width_minus  = body_width - notice_width;
+
+		    if(width_minus > 0)
+		    {
+			    width_divide = width_minus / 2;
+
+			    $('#system_notice_area').css("left",width_divide+'px');
+		    }	
+		    else
+		    $('#system_notice_area').css("left",'0px');
+	    }
+	}
+
+	
+	
+</script>
+<div id="system_notice_area" >
+<table class="system_notice_area {noticetype}" cellpadding="0" cellspacing="0">
+<tr id="system_notice_area_tr">
+<td class="notice-icon-box"><img src="{iconclass}" /></td>
+<td class="notice-content-box">{notice}</td>
+<td class="notice-close-box"><span id="system_notice_area_dismiss">X</span></td>
+</tr>
+</table>
+</div>
