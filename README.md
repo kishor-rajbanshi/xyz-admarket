@@ -28,7 +28,7 @@ Follow these steps to set up:
 1. **Clone the Repository:**
 
    ```bash
-   git clone -b 4.x https://github.com/kishor-rajbanshi/xyz-admarket.git
+   git clone -b 7.x https://github.com/kishor-rajbanshi/xyz-admarket.git
    cd xyz-admarket
    ```
 
