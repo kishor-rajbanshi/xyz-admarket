@@ -1,0 +1,20 @@
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>
+RewriteEngine on
+#Options +FollowSymlinks
+Options +SymLinksifOwnerMatch
+
+IndexIgnore *
+RewriteRule \.htaccess - [F]
+
+RewriteBase /track/
+
+RewriteRule (.*)(click.php)$ $2 [QSA,L]
+
+RewriteRule  ^(action\/impression\/)(.*)$ index.php?page=action/impression/$2 [QSA,L]
+
+RewriteRule  ^(action\/conversion\/)(.*)$ index.php?page=action/conversion/$2 [QSA,L]
+
+RewriteCond %{request_uri} !^index\.php
+	RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]

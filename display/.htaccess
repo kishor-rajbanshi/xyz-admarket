@@ -1,0 +1,28 @@
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>
+RewriteEngine on
+#Options +FollowSymlinks
+Options +SymLinksifOwnerMatch
+
+IndexIgnore *
+RewriteRule \.htaccess - [F]
+
+RewriteBase /display/
+
+RewriteRule  ^(js\/ads\.js)$ items.php [QSA,L]
+
+RewriteRule  ^(items\.php)$ - [QSA,L]
+
+RewriteRule  ^(js\/)(.*)$ - [QSA,L]
+
+RewriteRule  ^(query\/video\/)(.*)$ index.php?page=query/video/$2 [QSA,L]
+
+RewriteRule  ^(action\/conversion\/)(.*)$ index.php?page=action/conversion/$2 [QSA,L]
+
+RewriteRule  ^(direct-link\/)(.*)(\/)(.*)(\/)(.*)$ index.php?page=query/items/&aduid=$2&pid=$4&displaytype=$6&directlink=1 [QSA,L]
+
+RewriteRule  ^(click\/banner\/)(.*)$ query/banner/$2 [QSA,L]
+
+RewriteCond %{request_uri} !^index\.php
+RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]

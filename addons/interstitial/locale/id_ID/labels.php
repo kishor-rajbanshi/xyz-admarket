@@ -1,0 +1,21 @@
+<?php $label['interstitial']='Iklan pengantara';
+$label['interstitial ads']='Iklan pengantara';
+$label['interstitial activation']='Aktivasi interstitial';
+$label['interstitial skip interval']='Interstitial Lewati Interval';
+$label['interstitial interval visitor']='Waktu Interval B / W 2 interstisial / Pengunjung';
+$label['min']='Min';
+$label['sec']='Detik';
+$label['display skip button']='Tampilan Lewati Tombol';
+$label['skip button position']='Loncat Tombol Posisi';
+$label['top left']='Kiri atas';
+$label['top right']='Kanan atas';
+$label['bottom right']='Kanan bawah';
+$label['bottom left']='Kiri bawah';
+$label['skip ad']='Melewatkan iklan';
+$label['interstitial ad']='Iklan interstisial';
+$label['interstitials']='interstitial';
+$label['interstitial banner']='Iklan pengantara';
+$label['active interstitial ads']='Iklan Pengantara aktif';
+$label['pending interstitial ads']='Tertunda Iklan Pengantara';
+$label['interstitial code']='interstitial';
+?>

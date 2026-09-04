@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="<?php echo BASE.ADMIN_DIR."/css/style.css";?>" type="text/css" />
+<script type='text/javascript' src='<?php echo COMMON_DIR_PATH;?>js/jquery-1.7.min.js'></script>
+<script type='text/javascript' src='<?php echo COMMON_DIR_PATH;?>jquery-ui/jquery-ui.min.js'></script>
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo COMMON_DIR_PATH;?>jquery-ui/jquery-ui.min.css" />
+
+<script type="text/javascript">
+$(document).ready(function() {
+	 $("#from_date").datepicker({dateFormat : 'dd/mm/yy'});
+	 $("#to_date").datepicker({dateFormat : 'dd/mm/yy'});
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+$('#duration').change(function()
+{
+	ShowHideDate();
+});
+
+ShowHideDate();
+});
+
+function ShowHideDate()
+{
+	if($('#duration').val() ==7)
+	{
+		$('#from_date').show();
+		$('#to_date').show();
+	}
+	else
+	{
+		$('#from_date').hide();
+		$('#to_date').hide();
+
+		$('#from_date').val('');
+		$('#to_date').val('');
+	}
+}
+</script>
+<?php
+$from_date=$this->get_variable('from_date');
+$to_date=$this->get_variable('to_date');
+
+if($from_date !='' && $to_date =='')
+$to_date=date("d",time()).'/'.date("m",time()).'/'.date("Y",time());
+?>
+</head>
+<body style="background: none;">
+
+<table  class="iframe_table" cellpadding="0" cellspacing="0" border="0"  >
+
+<tr><td height="10px"></td></tr>
+
+
+
+<tr><td colspan="5">
+ <div class="search_div">
+<table class="search_div_table">
+
+<?php
+$uid=$this->get_variable('uid');
+$duration=$this->get_variable('duration');
+
+if($from_date =='' && $duration ==7)
+$duration=1;
+
+$form1=$this->create_form();
+$form1->start("overallstatistics",$this->make_url("user/puball/").$uid,"post");
+?>
+
+  <tr>
+
+<td>
+<select name="duration" id="duration">
+<option value="1" <?php if($duration==1) { echo "selected"; } ?>><?php echo $this->get_label('today');?></option>
+<option value="6" <?php if($duration==6) { echo "selected"; } ?>><?php echo $this->get_label('yesterday');?></option>
+<option value="2" <?php if($duration==2) { echo "selected"; } ?>><?php echo $this->get_label('last 14');?></option>
+<option value="3" <?php if($duration==3) { echo "selected"; } ?>><?php echo $this->get_label('last 30');?></option>
+<option value="4" <?php if($duration==4) { echo "selected"; } ?>><?php echo $this->get_label('last 12 month');?></option>
+<option value="5" <?php if($duration==5) { echo "selected"; } ?>><?php echo $this->get_label('all time');?></option>
+<option value="7" <?php if($duration==7) { echo "selected"; } ?>><?php echo $this->get_label('custom date');?></option>
+</select>
+</td>
+
+    <td>
+ &nbsp;
+    <input type="text" readonly="readonly" name="from_date" id="from_date" value="<?php echo $from_date;?>" placeholder="From Date" size="5" />
+
+<input type="text" readonly="readonly" name="to_date" id="to_date" value="<?php echo $to_date;?>" placeholder="To Date" size="5" />
+    &nbsp;
+    </td>
+    <td>
+
+
+    </td>
+    <td>&nbsp;&nbsp; <input type="submit" name="search" class="link_button" value="<?php echo $this->get_label('go');?>" /></td>
+
+
+
+  </tr>
+
+ <?php $form1->end(); ?>
+
+</table>
+</div>
+</td></tr>
+
+<tr><td height="5px" colspan="5"></td></tr>
+<tr><td colspan="5">
+<table style="width: 99%;margin: 4px;" class="data_table" cellpadding="0" cellspacing="0">
+<?php
+$reportResult      = $this->get_array("reportResult");
+$reportResultCount = count($reportResult);
+
+foreach($reportResult as $rkey => $rvalue)
+{
+	if($reportResultCount <= 3 && $rkey == 'total')
+    continue;
+
+	if($rkey == 'heading')
+	{?>
+		<tr class="row_heading_tr">
+		<td style="width: 100px;"></td>
+	<?php
+	}
+	else
+	{ ?>
+		<tr class="row_data_tr">
+		<td class="firstColumn"><?php echo $this->get_label($rkey);?></td>
+	<?php
+	}
+
+	foreach ($rvalue as $rkey1 => $rvalue1){?>
+	<td <?php if($rkey == 'heading'){?>style="width: 150px;"<?php } ?>><bdi><?php echo $rvalue1;?></bdi></td>
+	<?php
+	}
+	?>
+	</tr>
+	<?php
+}
+?>
+</table>
+</td></tr>
+</table>
+</body>
+</html>

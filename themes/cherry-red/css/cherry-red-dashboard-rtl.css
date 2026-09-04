@@ -1,0 +1,83 @@
+/********* Dashboard Tiles ************/
+.home-box-div .home-box-td-first
+{
+  	float: left !important;
+  	text-align:left !important;
+  	margin-left:15px !important;
+  	margin-right:0px !important;
+}
+
+.home-box-td-second
+{
+  	float: left !important;
+  	text-align:left !important;
+  	margin-left:15px !important;
+  	margin-right:0px !important;
+}
+
+.home-box-div .icon_td
+{
+	float:none !important;
+}
+
+@media only screen and (max-width:767px)
+{
+    .home-box-div .home-box-td-first
+    {
+      	float:none !important;
+      	text-align:center !important;
+      	margin:auto !important;
+      	display:block !important;
+    }
+
+    .home-box-td-second
+    {
+    	float:none !important;
+    	text-align:center !important;
+    	margin:auto !important;
+    	display:block !important;
+    }
+
+    .header-icon-box
+    {
+        left: 0px;
+    }
+
+		.header-temp .header-icon-box {
+				right: unset;
+				left: 15px;
+		}
+}
+/********* Dashboard Tiles ************/
+
+
+
+/*************advertiser dahbord************/
+
+.Ft-sec a i{-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);}
+
+.bottom-sec a i{-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);}
+
+
+.bottom-sec{right:auto; left:-11px;}
+
+.tab-icon{margin-right: 0px; margin-left:5px;}
+
+.chart-title i{margin-right: 0px; margin-left:8px;}
+
+.graph-div-outer {margin-top: 30px;}
+
+.graph-head> h6> i{margin-right:0px; margin-left:5px;}
+
+.create-btn p{flex-direction: row-reverse;}
+
+.page-inner i{margin-right: 0px; margin-left:8px;}
+
+.ask-question-button {display: flex;justify-content: flex-end;}
+
+
+.withdrawal-leftbox> .form-check .form-check-input{margin-right: 0em;}
+
+.tab-indicator {right:0;left: auto;}
