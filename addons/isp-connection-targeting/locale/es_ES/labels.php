@@ -1,0 +1,22 @@
+<?php $label['connection targeting']='Tipo de conexión Targeting';
+$label['connection']='Conexión';
+$label['connectionwise report']='Informe Sobre la base de conexión';
+$label['connection statistics admin']='Estadísticas de conexión de administración';
+$label['connection statistics advertiser']='Estadísticas de conexión Anunciante';
+$label['all advertisers']='todos los anunciantes';
+$label['connection reports']='Informes de conexión';
+$label['isp targeting']='La focalización ISP';
+$label['isp']='ISP';
+$label['ispwise report']='Reporte Basada ISP';
+$label['isp statistics admin']='ISP Estadísticas de administración';
+$label['isp statistics advertiser']='ISP Estadísticas Anunciante';
+$label['isp reports']='Informes ISP';
+$label['more']='Más';
+$label['hide']='Esconder';
+$label['select all']='Seleccionar todo';
+$label['upload dbip file']='Subir el archivo comprimido dbip.csv.gz';
+$label['isp data already dumped']='los datos de ISP ya importados. ';
+$label['isp data already imported']='los datos de ISP ya importados';
+$label['targeted connection of']='Conexiones dirigida de {x}';
+$label['targeted isp of']='ISP dirigida de {x}';
+?>

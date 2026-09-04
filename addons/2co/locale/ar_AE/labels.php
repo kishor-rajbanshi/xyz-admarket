@@ -1,0 +1,19 @@
+<?php $label['2co']='2CO';
+$label['checkout']='2CO';
+$label['2co activation']='تفعيل 2CO';
+$label['update']='تحديث';
+$label['2co sid']='2CO سيد';
+$label['2co secret word']='2CO سر كلمة';
+$label['pay with 2co']='دفع مع 2CO';
+$label['2co details']='تفاصيل 2CO';
+$label['2co payment report']='2CO تقرير الدفع';
+$label['your 2co transaction is completed']='اكتمال الصفقة 2CO الخاص بك';
+$label['2co order id']='بيع رقم';
+$label['2co invoice id']='هوية صوتية';
+$label['credit card processed']='بطاقة ائتمان المجهزة';
+$label['payment name']='اسم الدفع';
+$label['payment status']='حالة السداد';
+$label['approved']='وافق';
+$label['not approved']='غير مقبول';
+$label['configure ipn url']='ملاحظة: الرجاء تكوين "{x}" في إعداد INS حساب 2CO في ترتيب مكون وحالة الغش تغيير القسم.';
+?>

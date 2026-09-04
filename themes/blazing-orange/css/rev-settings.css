@@ -1,0 +1,194 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:300,500,600,700,900,400);
+
+html {
+overflow-x:hidden;
+padding: 0 !important;
+background:#fff;
+margin:0px !important;
+}
+
+
+.fullwidthbanner-container{
+width:100% !important;
+position:relative;
+padding:0;
+overflow:hidden;
+color:#fff;
+z-index:-1px;
+}
+
+#revolution-slider{
+font-family:"Raleway";
+}
+
+.tp-caption{
+font-size:14px;
+font-weight:300;
+}
+
+.tp-caption.teaser{
+letter-spacing:5px;
+}
+
+.tp-caption br{
+margin-bottom:5px;
+}
+
+.tparrows{ top:50% !important;}
+
+.med{
+font-size:24px;
+letter-spacing:-.5px;
+}
+
+
+.med-white{
+color:#fff;
+font-size:24px;
+letter-spacing:-.5px;
+}
+.med-green{
+color:#1a8b49;
+font-size:24px;
+letter-spacing:-.5px;
+}
+.small-white{
+color:#fff;
+line-height:1.7em;
+}
+
+.big-black{
+font-size:52px;
+letter-spacing:-3px;
+color:#222;
+}
+
+.big-white{
+font-size:16px;
+color:#fff;
+line-height:normal;
+font-weight:bold;
+text-transform:uppercase;
+letter-spacing:5px;
+}
+
+.ultra-big-white{
+font-size:60px;
+font-weight:100;
+color:#fff;
+margin:0;
+line-height:72px;
+padding:30px;
+ font-family: 'Oswald', sans-serif !important;
+ text-transform: uppercase; letter-spacing:3px;
+}
+
+.ultra-big-black{
+font-size:96px;
+font-weight:400;
+color:#222;
+margin:0;
+line-height:72px;
+}
+
+a.btn-slider{
+font-size:14px;
+color:#fff;
+letter-spacing:1px;
+line-height:normal;
+font-weight:bold;
+text-transform:uppercase;
+border:solid 1px #fff;
+padding:10px 15px 10px 15px;
+
+}
+a.btn-slider:after{
+font-family:FontAwesome;
+content: "\f054";
+margin-left:20px;
+}
+a.btn-slider:hover{
+color:#222;
+background:#fff;
+border-color:#000;
+border:solid 1px #fff;
+}
+a.btn-slider:hover:after{
+color:#222 ;
+}
+
+.fullwidthbanner-container a.btn{
+text-transform:uppercase;
+letter-spacing:1px;
+color:#fff !important;
+font-weight:700;
+padding:10px 20px 10px 20px;
+border-radius:0;
+-moz-border-radius:0;
+-webkit-border-radius:0;
+}
+
+
+.ultra-big-white{max-width:990px !important; padding:0px !important;}
+
+.main_silder{top:220px !important;}
+.Second_slider{top:200px !important;}
+.Third_slider{top:200px !important;}
+
+main_description{top:280px !important;}
+
+
+.description{top:280px !important;}
+
+.read_more{top:420px !important;}
+
+@media only screen and (max-width: 992px) {
+
+
+.fullwidthbanner-container{
+position:relative;
+}
+
+.main_silder{top:180px !important;}
+.Second_slider{top:180px !important;}
+.Third_slider{top:180px !important;}
+
+.main_description{top:280px !important;}
+
+.description{top:280px !important;}
+
+.read_more{top:420px !important;}
+
+}
+
+
+@media only screen and (max-width: 776px) {
+
+.main_silder{top:250px !important;}
+.Second_slider{top:180px !important;}
+.Third_slider{top:180px !important;}
+
+.main_description{top:310px !important;}
+
+.description{top:250px !important;}
+
+.read_more{top:420px !important;}
+.btn-slider{line-height:24px;}
+}
+
+@media only screen and (max-width: 480px) {
+
+.main_silder{top:250px !important;}
+.Second_slider{top:180px !important;}
+.Third_slider{top:180px !important;}
+
+.main_description{top:310px !important;}
+
+.description{top:220px !important;}
+
+.read_more{top:450px !important;}
+
+a.btn-slider{padding: 10px 10px 10px 10px !important; 
+font-size:12px !important;}
+
+}

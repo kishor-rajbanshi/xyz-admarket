@@ -1,0 +1,26 @@
+<?php $message['category targeting addon status successfully updated']='Вы успешно обновили категорию таргетинга статуса аддона';
+$message['category targeting settings update success']='Вы успешно обновили категорию настроек таргетинга аддона';
+$message['category added']='Вы успешно добавили новую категорию';
+$message['category edited']='Вы успешно отредактировали категорию';
+$message['category deleted']='Вы успешно удалили категорию';
+$message['category invalid']='Недействительная категория';
+$message['category child exists']='Не удалось удалить. ';
+$message['category exists']='Указанное название категории уже существует';
+$message['category delete message']='Вы действительно хотите удалить категорию?';
+$message['category site exists']='Сайты отображаются в этой категории. ';
+$message['please select a category']='Пожалуйста, выберите категорию';
+$message['invalid url']='Неверное имя сайта';
+$message['site name already exists']='Название сайта уже существует';
+$message['site add success']='Вы успешно добавили новый сайт';
+$message['site edit success']='Вы успешно отредактировали сайт';
+$message['site status success']='Вы успешно обновили статус сайта';
+$message['site delete success']='Вы успешно удалили сайт';
+$message['site delete message']='Вы действительно хотите удалить этот сайт? ';
+$message['site invalid']='Неверный идентификатор сайта';
+$message['no active sites']='У вас нет активных сайтов';
+$message['please select a targeting site']='Пожалуйста, выберите сайт нацеливания';
+$message['all category targeted']='Ваше объявление будет ориентирована на все категории';
+$message['successfully updated the category targeting']='Вы успешно обновили категорию таргетинга';
+$message['you cannot deactivate addon']='Вы не можете отключить категорию таргетинг addon.Because спонсорского аддона требует категорий таргетинга аддона.';
+$message['site logo deleted']='Вы успешно удалили логотип сайта';
+?>

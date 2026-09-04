@@ -1,0 +1,25 @@
+<?php $message['cpm addon status successfully updated']='كنت قد قمت بتحديث بنجاح CPM وضع الملحق';
+$message['cpm settings update success']='لقد نجحت في تحديث إعدادات الملحق CPM';
+$message['cpm adpricing activation success']='قمت بتنشيط بنجاح تسعير الإعلانات CPM';
+$message['cpm adpricing update success']='كنت قد قمت بتحديث بنجاح تسعير الإعلانات CPM';
+$message['cpm account balance low']='لا يوجد لديك رصيد كاف حساب المعلن';
+$message['cpm adpricing activation message']='تفعيل تسعير CPM الإعلان يسمح فقط للإعلانات CPM النشطة';
+$message['cpm profit percentage successfully updated']='لقد نجحت في تحديث نسبة الربح الناشر CPM';
+$message['cpm modify impression & rate settings']='يرجى تعديل إعدادات الميزانية ومعدل الاجتماع التحضيري للمؤتمر';
+$message['cpm impression multiples']='CPM انطباعات يجب أن تكون مضاعفات 1000';
+$message['budget greater than cpm rate']='يجب أن تكون الميزانية CPM أكبر من أو يساوي معدل الاجتماع التحضيري للمؤتمر';
+$message['cpm mapping cancel']='هل تريد حقا أن إلغاء هذا التعيين CPM';
+$message['cpm modify budget settings']='يرجى تعديل الميزانية الاجتماع التحضيري للمؤتمر';
+$message['cpm adpricing cancellation success']='لقد ألغيت بنجاح تسعير الإعلانات CPM';
+$message['invalid cpm daily budget']='CPM صالح الميزانية اليومية';
+$message['daily budget less than cpm budget']='يجب أن تكون الميزانية اليومية أقل من أو يساوي ميزانية CPM';
+$message['daily budget update success']='لقد نجحت في تحديث الميزانية اليومية CPM';
+$message['cpm rate deducted']='إذا قمت بتفعيل هذا التسعير، وخصم ميزانية CPM من حسابك';
+$message['cpm budget add message']='إذا قمت بتحديث الميزانية CPM، سوف يخصم المبلغ المحدد من حسابك';
+$message['daily budget greater than cpm rate']='وينبغي أن يكون CPM الميزانية اليومية أكبر من أو يساوي معدل الاجتماع التحضيري للمؤتمر';
+$message['min cpm budget should greater than def cpm rate']='لا ينبغي أن تكون الميزانية CPM الحد الأدنى أقل من معدل CPM الافتراضي';
+$message['min cpm daily budget should greater than def cpm rate']='لا ينبغي أن يكون الحد الأدنى الميزانية اليومية CPM أقل من معدل CPM الافتراضي';
+$message['cpm rate less']='وينبغي أن يكون معدل الاجتماع التحضيري للمؤتمر وميزانية أكبر من أو تساوي {x}';
+$message['cpm budget less']='يجب أن تكون الميزانية CPM أكبر من أو تساوي {x}';
+$message['daily budget greater than minimum']='وينبغي أن يكون CPM الميزانية اليومية أكبر من أو تساوي {x}';
+?>

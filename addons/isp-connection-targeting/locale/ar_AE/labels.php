@@ -1,0 +1,22 @@
+<?php $label['connection targeting']='نوع الاتصال الاستهداف';
+$label['connection']='صلة';
+$label['connectionwise report']='اتصال تقرير استنادا';
+$label['connection statistics admin']='اتصال الاحصائيات الادارية';
+$label['connection statistics advertiser']='اتصال الاحصائيات المعلن';
+$label['all advertisers']='جميع المعلنين';
+$label['connection reports']='تقارير اتصال';
+$label['isp targeting']='ISP الاستهداف';
+$label['isp']='ISP';
+$label['ispwise report']='تقرير يستند ISP';
+$label['isp statistics admin']='ISP الاحصائيات الادارية';
+$label['isp statistics advertiser']='ISP الاحصائيات المعلن';
+$label['isp reports']='تقارير ISP';
+$label['more']='أكثر من';
+$label['hide']='إخفاء';
+$label['select all']='اختر الكل';
+$label['upload dbip file']='تحميل ملف مضغوط dbip.csv.gz';
+$label['isp data already dumped']='البيانات ISP المستوردة بالفعل. ';
+$label['isp data already imported']='البيانات ISP المستوردة بالفعل';
+$label['targeted connection of']='اتصالات المستهدفة من {x}';
+$label['targeted isp of']='مزودي خدمات الإنترنت المستهدفة من {x}';
+?>

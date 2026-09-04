@@ -1,0 +1,26 @@
+<?php $message['category targeting addon status successfully updated']='Έχετε ενημερωθεί με επιτυχία η στόχευση κατηγορίας καθεστώς addon';
+$message['category targeting settings update success']='Έχετε ενημερωθεί με επιτυχία στόχευση κατηγορίας ρυθμίσεις addon';
+$message['category added']='Έχετε προσθέσει με επιτυχία τη νέα κατηγορία';
+$message['category edited']='Έχετε επεξεργαστεί με επιτυχία την κατηγορία';
+$message['category deleted']='Έχετε διαγραφεί με επιτυχία την κατηγορία';
+$message['category invalid']='Μη έγκυρη κατηγορία';
+$message['category child exists']='Η διαγραφή απέτυχε. ';
+$message['category exists']='Το όνομα κατηγορίας υπάρχει ήδη';
+$message['category delete message']='Θέλετε πραγματικά να διαγράψετε την κατηγορία;';
+$message['category site exists']='Τοποθεσίες αντιστοιχίζονται σε αυτή την κατηγορία. ';
+$message['please select a category']='Παρακαλώ επιλέξτε κατηγορία';
+$message['invalid url']='Μη έγκυρο όνομα του δικτυακού τόπου';
+$message['site name already exists']='το όνομα της ιστοσελίδας υπάρχει ήδη';
+$message['site add success']='Έχετε προσθέσει με επιτυχία ένα νέο site';
+$message['site edit success']='Έχετε επεξεργαστεί με επιτυχία την ιστοσελίδα';
+$message['site status success']='Έχετε ενημερωθεί με επιτυχία το καθεστώς ιστοσελίδα';
+$message['site delete success']='Έχετε διαγραφεί με επιτυχία την ιστοσελίδα';
+$message['site delete message']='Θέλετε πραγματικά να διαγράψετε αυτό το site; ';
+$message['site invalid']='Μη έγκυρη ιστοσελίδα ID';
+$message['no active sites']='Δεν υπάρχουν ενεργές θέσεις';
+$message['please select a targeting site']='Παρακαλώ επιλέξτε ένα site στόχευση';
+$message['all category targeted']='Η διαφήμισή σας θα απευθύνονται σε όλες τις κατηγορίες';
+$message['successfully updated the category targeting']='Έχετε ενημερωθεί με επιτυχία την κατηγορία στόχευσης';
+$message['you cannot deactivate addon']='Δεν μπορείτε να απενεργοποιήσετε την κατηγορία στόχευση addon.Because χορηγία addon απαιτεί στόχευση addon κατηγορία.';
+$message['site logo deleted']='Έχετε διαγραφεί με επιτυχία το λογότυπο site';
+?>

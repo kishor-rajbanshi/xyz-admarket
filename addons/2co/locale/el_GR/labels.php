@@ -1,0 +1,19 @@
+<?php $label['2co']='2CO';
+$label['checkout']='2CO';
+$label['2co activation']='Ενεργοποίηση 2CO';
+$label['update']='Εκσυγχρονίζω';
+$label['2co sid']='2CO Σιντ';
+$label['2co secret word']='2CO μυστική λέξη';
+$label['pay with 2co']='Πληρώστε με 2CO';
+$label['2co details']='2CO Λεπτομέρειες';
+$label['2co payment report']='2CO Έκθεση Πληρωμής';
+$label['your 2co transaction is completed']='συναλλαγή 2CO σας έχει ολοκληρωθεί';
+$label['2co order id']='Πώληση Id';
+$label['2co invoice id']='τιμολόγιο Id';
+$label['credit card processed']='Πιστωτική Κάρτα Επεξεργασμένα';
+$label['payment name']='Όνομα πληρωμής';
+$label['payment status']='Κατάσταση πληρωμής';
+$label['approved']='Εγκρίθηκε';
+$label['not approved']='Δεν εγκρινεται';
+$label['configure ipn url']='Σημείωση: Ρυθμίστε «{x}» στο INS Ρύθμιση του λογαριασμού 2CO στη Παραγγελία Δημιουργήθηκε και Κατάσταση απάτης Άλλαξε ενότητα.';
+?>

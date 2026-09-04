@@ -1,0 +1,25 @@
+<?php $message['cpm addon status successfully updated']='Έχετε ενημερωθεί με επιτυχία την κατάσταση addon CPM';
+$message['cpm settings update success']='Έχετε ενημερωθεί με επιτυχία τις ρυθμίσεις addon CPM';
+$message['cpm adpricing activation success']='Έχετε ενεργοποιήσει με επιτυχία την τιμολόγηση διαφημίσεων CPM';
+$message['cpm adpricing update success']='Έχετε ενημερωθεί με επιτυχία την τιμολόγηση διαφημίσεων CPM';
+$message['cpm account balance low']='Δεν έχετε επαρκές υπόλοιπο του λογαριασμού του διαφημιζόμενου';
+$message['cpm adpricing activation message']='ενεργοποίηση τιμολόγηση CPM διαφήμισης επιτρέπεται μόνο για την ενεργό διαφημίσεις CPM';
+$message['cpm profit percentage successfully updated']='Έχετε ενημερωθεί με επιτυχία το ποσοστό εκδότη κέρδος CPM';
+$message['cpm modify impression & rate settings']='Παρακαλείστε να τροποποιήσετε CPM ρυθμίσεις προϋπολογισμό και ποσοστού';
+$message['cpm impression multiples']='CPM Εντυπώσεις πρέπει να είναι πολλαπλάσια του 1000';
+$message['budget greater than cpm rate']='προϋπολογισμός CPM πρέπει να είναι μεγαλύτερη ή ίση με το CPM επιτόκιο';
+$message['cpm mapping cancel']='Θέλετε πραγματικά να ακυρώσετε αυτήν την χαρτογράφηση CPM';
+$message['cpm modify budget settings']='Παρακαλείστε να τροποποιήσετε CPM προϋπολογισμού';
+$message['cpm adpricing cancellation success']='Έχετε ακυρώσει με επιτυχία την τιμολόγηση διαφημίσεων CPM';
+$message['invalid cpm daily budget']='Μη έγκυρο CPM ημερήσιο προϋπολογισμό';
+$message['daily budget less than cpm budget']='Ο ημερήσιος προϋπολογισμός πρέπει να είναι μικρότερο ή ίσο με τον προϋπολογισμό CPM';
+$message['daily budget update success']='Έχετε ενημερωθεί με επιτυχία τον ημερήσιο προϋπολογισμό CPM';
+$message['cpm rate deducted']='Αν ενεργοποιήσετε αυτή τιμολόγηση, προϋπολογισμού CPM θα αφαιρεθεί από το λογαριασμό σας';
+$message['cpm budget add message']='Εάν ενημερώσετε τον προϋπολογισμό CPM, έχει οριστεί το ποσό θα αφαιρείται από το λογαριασμό σας';
+$message['daily budget greater than cpm rate']='Ο ημερήσιος προϋπολογισμός CPM θα πρέπει να είναι μεγαλύτερη ή ίση με το CPM επιτόκιο';
+$message['min cpm budget should greater than def cpm rate']='Ο ελάχιστος προϋπολογισμός CPM δεν πρέπει να είναι μικρότερη από ποσοστό αθέτησης CPM';
+$message['min cpm daily budget should greater than def cpm rate']='Ελάχιστο CPM ημερήσιος προϋπολογισμός δεν πρέπει να είναι μικρότερη από την προεπιλεγμένη τιμή CPM';
+$message['cpm rate less']='CPM ρυθμός &amp; προϋπολογισμός πρέπει να είναι μεγαλύτερη από ή ίση με {x}';
+$message['cpm budget less']='προϋπολογισμός CPM πρέπει να είναι μεγαλύτερη από ή ίση με {x}';
+$message['daily budget greater than minimum']='ημερήσιος προϋπολογισμός CPM πρέπει να είναι μεγαλύτερη από ή ίση με {x}';
+?>

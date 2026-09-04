@@ -1,0 +1,25 @@
+<?php $message['cpm addon status successfully updated']='Вы успешно обновили статус аддона CPM';
+$message['cpm settings update success']='Вы успешно обновили настройки аддона CPM';
+$message['cpm adpricing activation success']='Вы успешно активировали цены объявления CPM';
+$message['cpm adpricing update success']='Вы успешно обновили цены объявления CPM';
+$message['cpm account balance low']='У вас нет достаточного баланса счета рекламодателя';
+$message['cpm adpricing activation message']='CPM объявления активации цен допускается только для активных объявлений CPM';
+$message['cpm profit percentage successfully updated']='Вы успешно обновили процент издателя прибыли CPM';
+$message['cpm modify impression & rate settings']='Пожалуйста, измените бюджет и скорость настройку Cpm';
+$message['cpm impression multiples']='CPM Впечатление должно быть кратными 1000';
+$message['budget greater than cpm rate']='Бюджет CPM должен быть больше или равен имп скорости';
+$message['cpm mapping cancel']='Вы действительно хотите, чтобы отменить отображение CPM';
+$message['cpm modify budget settings']='Пожалуйста, измените Cpm бюджет';
+$message['cpm adpricing cancellation success']='Вы успешно отменили цены объявления CPM';
+$message['invalid cpm daily budget']='Invalid CPM ежедневный бюджет';
+$message['daily budget less than cpm budget']='Ежедневный бюджет должен быть меньше или равен CPM бюджет';
+$message['daily budget update success']='Вы успешно обновили ежедневный бюджет CPM';
+$message['cpm rate deducted']='Если активировать эту оценку, бюджет CPM будет списана с вашего счета';
+$message['cpm budget add message']='При обновлении бюджета CPM, указано сумма будет списана с вашего счета';
+$message['daily budget greater than cpm rate']='CPM ежедневный бюджет должен быть больше или равен имп скорости';
+$message['min cpm budget should greater than def cpm rate']='Минимальный бюджет CPM не должен быть меньше, чем ставка CPM по умолчанию';
+$message['min cpm daily budget should greater than def cpm rate']='Минимальная цена за тысячу показов в день бюджет не должен быть меньше, чем ставка CPM по умолчанию';
+$message['cpm rate less']='СРМ ставок и бюджет должен быть больше или равно {х}';
+$message['cpm budget less']='Бюджет CPM должно быть больше или равно {х}';
+$message['daily budget greater than minimum']='CPM ежедневный бюджет должен быть больше или равно {х}';
+?>

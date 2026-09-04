@@ -1,0 +1,19 @@
+<?php $label['2co']='2Kor';
+$label['checkout']='2Kor';
+$label['2co activation']='2Kor Aktivasi';
+$label['update']='Memperbarui';
+$label['2co sid']='2Kor Sid';
+$label['2co secret word']='2Kor Rahasia Kata';
+$label['pay with 2co']='Bayar Dengan 2Kor';
+$label['2co details']='Rincian 2Kor';
+$label['2co payment report']='Laporan Pembayaran 2Kor';
+$label['your 2co transaction is completed']='Transaksi 2Kor Anda selesai';
+$label['2co order id']='Sale Id';
+$label['2co invoice id']='ID faktur';
+$label['credit card processed']='Kartu Kredit Diproses';
+$label['payment name']='Nama Pembayaran';
+$label['payment status']='Status pembayaran';
+$label['approved']='disetujui';
+$label['not approved']='Tidak disetujui';
+$label['configure ipn url']='Catatan: Silakan mengkonfigurasi "{x}" di INS Pengaturan akun 2Kor di bagian Orde Dibuat dan Status Penipuan Berubah.';
+?>

@@ -1,0 +1,25 @@
+<?php $message['cpm addon status successfully updated']='Vous avez mis à jour le statut de addon CPM';
+$message['cpm settings update success']='Vous avez mis à jour les paramètres addon CPM';
+$message['cpm adpricing activation success']='Vous avez activé avec succès le prix publicitaire CPM';
+$message['cpm adpricing update success']='Vous avez mis à jour le prix publicitaire CPM';
+$message['cpm account balance low']='Vous avez pas le solde du compte annonceur suffisant';
+$message['cpm adpricing activation message']='CPM annonce l\'activation de prix autorisée uniquement pour les annonces actives CPM';
+$message['cpm profit percentage successfully updated']='Vous avez mis à jour le bénéfice de l\'éditeur CPM pourcentage';
+$message['cpm modify impression & rate settings']='S\'il vous plaît modifier le budget cpm et paramètres taux';
+$message['cpm impression multiples']='CPM Impressions devraient être des multiples de 1000';
+$message['budget greater than cpm rate']='le budget CPM doit être supérieur ou égal à taux cpm';
+$message['cpm mapping cancel']='Voulez-vous vraiment annuler cette mise en correspondance de CPM';
+$message['cpm modify budget settings']='S\'il vous plaît modifier le budget cpm';
+$message['cpm adpricing cancellation success']='Vous avez annulé avec succès le prix publicitaire CPM';
+$message['invalid cpm daily budget']='budget quotidien invalide CPM';
+$message['daily budget less than cpm budget']='Budget quotidien devrait être inférieur ou égal au budget de la RPC';
+$message['daily budget update success']='Vous avez mis à jour le budget quotidien CPM';
+$message['cpm rate deducted']='Si vous activez ce prix, le budget CPM sera déduite de votre compte';
+$message['cpm budget add message']='Si vous mettez à jour le budget CPM, le montant spécifié sera déduit de votre compte';
+$message['daily budget greater than cpm rate']='budget quotidien CPM devrait être supérieur ou égal à taux cpm';
+$message['min cpm budget should greater than def cpm rate']='Budget de CPM minimal ne doit pas être inférieur à défaut taux de CPM';
+$message['min cpm daily budget should greater than def cpm rate']='budget quotidien de CPM minimum ne doit pas être inférieur à défaut taux de CPM';
+$message['cpm rate less']='CPM de taux et le budget devrait être supérieur ou égal à {x}';
+$message['cpm budget less']='le budget CPM devrait être supérieur ou égal à {x}';
+$message['daily budget greater than minimum']='CPM budget quotidien doit être supérieur ou égal à {x}';
+?>

@@ -1,0 +1,21 @@
+RewriteEngine on
+Options +FollowSymlinks 
+
+IndexIgnore *
+RewriteRule \.htaccess - [F]
+
+RewriteBase /display/
+
+RewriteRule  ^(js\/ads\.js)$ items.php [QSA,L]
+
+RewriteRule  ^(items\.php)$ - [QSA,L]
+
+RewriteRule  ^(query\/data\/)(.*)$ index.php?page=query/data/$2 [QSA,L]
+
+RewriteRule  ^(query\/video\/)(.*)$ index.php?page=query/video/$2 [QSA,L]
+
+RewriteRule  ^(click\/conversion\/)(.*)$ index.php?page=click/conversion/$2 [QSA,L]
+
+RewriteRule  ^(popads\/)(.*)$ index.php?page=query/items/&aduid=$2&displaytype=9&direct=1 [QSA,L]
+
+RewriteRule  ^(click\/banner\/)(.*)$ query/banner/$2 [QSA,L]

@@ -1,0 +1,22 @@
+<?php $label['connection targeting']='Connection Type Penargetan';
+$label['connection']='Koneksi';
+$label['connectionwise report']='Koneksi Laporan Berdasarkan';
+$label['connection statistics admin']='Koneksi Statistik Admin';
+$label['connection statistics advertiser']='Koneksi Statistik Pengiklan';
+$label['all advertisers']='semua Pengiklan';
+$label['connection reports']='Laporan koneksi';
+$label['isp targeting']='ISP Penargetan';
+$label['isp']='ISP';
+$label['ispwise report']='Laporan Berbasis ISP';
+$label['isp statistics admin']='ISP Statistik Admin';
+$label['isp statistics advertiser']='ISP Statistik Pengiklan';
+$label['isp reports']='Laporan ISP';
+$label['more']='Lebih';
+$label['hide']='Menyembunyikan';
+$label['select all']='Pilih Semua';
+$label['upload dbip file']='Upload file dbip.csv.gz terkompresi';
+$label['isp data already dumped']='Data ISP sudah diimpor. ';
+$label['isp data already imported']='Data ISP sudah diimpor';
+$label['targeted connection of']='Target Koneksi Of {x}';
+$label['targeted isp of']='Target ISP Of {x}';
+?>

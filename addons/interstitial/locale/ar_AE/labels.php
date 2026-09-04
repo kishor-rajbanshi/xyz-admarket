@@ -1,0 +1,21 @@
+<?php $label['interstitial']='إعلانات فراغي';
+$label['interstitial ads']='إعلانات فراغي';
+$label['interstitial activation']='تفعيل الخلالي';
+$label['interstitial skip interval']='الخلالية تخطي الفاصل';
+$label['interstitial interval visitor']='الوقت الفاصل B / W 2 الخلالية / الزوار';
+$label['min']='دقيقة';
+$label['sec']='ثانية';
+$label['display skip button']='عرض تخطي زر';
+$label['skip button position']='تخطي زر الوظيفة';
+$label['top left']='أعلى اليسار';
+$label['top right']='اعلى اليمين';
+$label['bottom right']='أسفل اليمين';
+$label['bottom left']='أسفل اليسار';
+$label['skip ad']='تجاهل الاعلانات';
+$label['interstitial ad']='الإعلان الخلالي';
+$label['interstitials']='الخلالية';
+$label['interstitial banner']='إعلانات فراغي';
+$label['active interstitial ads']='الإعلانات البينية النشطة';
+$label['pending interstitial ads']='في انتظار الإعلانات البينية';
+$label['interstitial code']='الخلالية';
+?>

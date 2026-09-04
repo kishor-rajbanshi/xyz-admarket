@@ -1,0 +1,22 @@
+<?php $label['connection targeting']='Тип соединения нацеливание';
+$label['connection']='соединение';
+$label['connectionwise report']='Подключение Отчет основании';
+$label['connection statistics admin']='Связь Статистика администратора';
+$label['connection statistics advertiser']='Связь Статистика рекламодатель';
+$label['all advertisers']='Все Рекламодатели';
+$label['connection reports']='Отчеты подключения';
+$label['isp targeting']='Таргетинг ISP';
+$label['isp']='ISP';
+$label['ispwise report']='Отчет на основе ISP';
+$label['isp statistics admin']='ISP Статистика администратора';
+$label['isp statistics advertiser']='ISP Статистика рекламодатель';
+$label['isp reports']='Отчеты ISP';
+$label['more']='Больше';
+$label['hide']='Спрятать';
+$label['select all']='Выбрать все';
+$label['upload dbip file']='Загрузить сжатый файл dbip.csv.gz';
+$label['isp data already dumped']='ISP данные уже импортированы. ';
+$label['isp data already imported']='ISP данные уже импортированы';
+$label['targeted connection of']='Адресные соединения {х}';
+$label['targeted isp of']='Адресные ПУИ Of {х}';
+?>

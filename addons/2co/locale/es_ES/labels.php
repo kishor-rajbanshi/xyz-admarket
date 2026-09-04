@@ -1,0 +1,19 @@
+<?php $label['2co']='2Co';
+$label['checkout']='2Co';
+$label['2co activation']='La activación 2Co';
+$label['update']='Actualizar';
+$label['2co sid']='2 Cor Sid';
+$label['2co secret word']='2 Cor palabra secreta';
+$label['pay with 2co']='Pagará con 2Co';
+$label['2co details']='2 Cor detalles';
+$label['2co payment report']='2 Cor informe de pago';
+$label['your 2co transaction is completed']='La transacción se completa 2Co';
+$label['2co order id']='venta Id';
+$label['2co invoice id']='ID de factura';
+$label['credit card processed']='Tarjeta de crédito procesados';
+$label['payment name']='pago Nombre';
+$label['payment status']='Estado de pago';
+$label['approved']='Aprobado';
+$label['not approved']='No aprovado';
+$label['configure ipn url']='Nota: Por favor, configure "{x}" en el INS Configuración de la cuenta en la sección 2 Cor orden creado y estado Fraude cambiado.';
+?>

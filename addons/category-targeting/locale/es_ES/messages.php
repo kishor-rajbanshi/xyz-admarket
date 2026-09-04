@@ -1,0 +1,26 @@
+<?php $message['category targeting addon status successfully updated']='Ha actualizado correctamente la orientación por categoría de estado complemento';
+$message['category targeting settings update success']='Ha actualizado correctamente la configuración de orientación de montaje anexo categoría';
+$message['category added']='Ha agregado la nueva categoría';
+$message['category edited']='Ha editado con éxito la categoría';
+$message['category deleted']='Ha eliminado con éxito la categoría';
+$message['category invalid']='Categoría no válido';
+$message['category child exists']='Eliminación falló. ';
+$message['category exists']='El nombre de la categoría especificada ya existe';
+$message['category delete message']='¿De verdad quiere eliminar la categoría?';
+$message['category site exists']='Sitios asignados a esta categoría. ';
+$message['please select a category']='Porfavor seleccione una categoría';
+$message['invalid url']='Nombre de sitio no válido';
+$message['site name already exists']='Nombre del sitio ya existe';
+$message['site add success']='Ha agregado un nuevo sitio';
+$message['site edit success']='Ha editado con éxito el sitio';
+$message['site status success']='Ha actualizado correctamente el estado del sitio';
+$message['site delete success']='Usted ha eliminado correctamente el sitio';
+$message['site delete message']='¿De verdad quiere eliminar este sitio? ';
+$message['site invalid']='ID de sitio no válido';
+$message['no active sites']='No tiene sitios activos';
+$message['please select a targeting site']='Por favor, seleccione un sitio de segmentación';
+$message['all category targeted']='Su anuncio será dirigido a todas las categorías';
+$message['successfully updated the category targeting']='Ha actualizado correctamente la categoría de orientación';
+$message['you cannot deactivate addon']='No se puede desactivar la categoría de orientación addon.Because complemento patrocinado requiere la categoría de orientación complemento.';
+$message['site logo deleted']='Ha eliminado con éxito el logo del sitio';
+?>

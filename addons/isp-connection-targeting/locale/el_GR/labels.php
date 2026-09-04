@@ -1,0 +1,22 @@
+<?php $label['connection targeting']='Τύπος σύνδεσης Στόχευση';
+$label['connection']='Σύνδεση';
+$label['connectionwise report']='Σύνδεση Με βάση έκθεση';
+$label['connection statistics admin']='Σύνδεση Στατιστικά Διαχειριστής';
+$label['connection statistics advertiser']='Σύνδεση Στατιστικά Διαφημιστής';
+$label['all advertisers']='Όλες οι διαφημιζόμενοι';
+$label['connection reports']='Αναφορές Σύνδεση';
+$label['isp targeting']='ISP Στόχευση';
+$label['isp']='ISP';
+$label['ispwise report']='Έκθεση Βασισμένο ISP';
+$label['isp statistics admin']='ISP Στατιστικά Διαχειριστής';
+$label['isp statistics advertiser']='ISP Στατιστικά Διαφημιστής';
+$label['isp reports']='ISP Αναφορές';
+$label['more']='Περισσότερο';
+$label['hide']='Κρύβω';
+$label['select all']='Επιλογή όλων';
+$label['upload dbip file']='Ανεβάστε συμπιεσμένο αρχείο dbip.csv.gz';
+$label['isp data already dumped']='ISP δεδομένα που έχουν ήδη εισαχθεί. ';
+$label['isp data already imported']='ISP δεδομένα που έχουν ήδη εισαχθεί';
+$label['targeted connection of']='Στοχευμένη συνδέσεις {x}';
+$label['targeted isp of']='Στοχευμένη ISPs Of {x}';
+?>

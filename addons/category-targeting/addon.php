@@ -1,0 +1,1 @@
+<?php $GLOBALS["xyz_admarket_addons"]["XYZADMCAT"]=array("name"=>"Category Targeting","version"=>"1.0.3","folder_name"=>"category-targeting"); ?>

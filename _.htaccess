@@ -1,0 +1,43 @@
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>
+
+RewriteEngine on
+#Options +FollowSymlinks
+Options +SymLinksifOwnerMatch
+
+IndexIgnore *
+RewriteRule \.htaccess - [F]
+
+RewriteBase /workspace/xyz_admarket_bimal/
+
+RewriteRule (.*)(library\/FCKeditor\/editor\/dialog\/common)(.*)$ $2$3 [QSA,L]
+
+RewriteRule (.*)(common|library|upload|userfiles|backup)(\/)(.*)$ $2$3$4 [QSA,L]
+
+RewriteCond %{request_uri} ^(.*)(addons|themes)(\/)(.*)$
+	RewriteRule (.*)(addons|themes)(\/)(.*)(css|fonts|js|images)(\/)(.*)$ %2/$4$5$6$7 [L]
+
+RewriteCond %{request_uri} ^(.*)(admin|cron|display|track|installation)(\/)(.*)$
+	RewriteRule (.*)(css|fonts|js|images)(\/)(.*)$ %2/$2$3$4 [L]
+
+RewriteRule (.*)(css|fonts|js|images)(\/)(.*)$ $2$3$4 [L]
+
+RewriteRule ^(.*)(index\.php)(\/?)(.*)$ $1index.php?page=index/$4 [QSA,L]
+
+#below rewrite handles admin urls from addons also
+RewriteCond %{request_uri} !^index\.php
+	RewriteCond %{request_uri} ^(.*)(admin\/)(.*)$
+		RewriteRule (.*)(admin\/)(.*)$ $1$2index.php?page=$3 [QSA,L]
+
+#below rewrite handles addons direct access urls
+RewriteCond %{request_uri} !^index\.php
+	RewriteCond %{request_uri} ^(.*)(addons\/)(.*)$
+		RewriteRule (.*)(addons\/)(.+?\/)(.*)$ $2$3index.php?page=$4 [QSA,L]
+
+RewriteCond %{request_uri} !^index\.php
+	RewriteCond %{request_uri} ^(.*)(cron|display|track|installation)(\/)(.*)$
+		RewriteRule (.*)(cron|display|track|installation)(\/)(.*)$ $2$3index.php?page=$4 [QSA,L]
+
+RewriteCond %{request_uri} !^index\.php
+	RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]

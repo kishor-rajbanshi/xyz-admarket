@@ -1,0 +1,26 @@
+<?php $message['category targeting addon status successfully updated']='كنت قد قمت بتحديث بنجاح فئة تستهدف وضع الملحق';
+$message['category targeting settings update success']='كنت قد قمت بتحديث بنجاح فئة إعدادات الاستهداف الملحق';
+$message['category added']='لقد نجحت في إضافة فئة جديدة';
+$message['category edited']='لقد نجحت بتحرير فئة';
+$message['category deleted']='لقد بنجاح حذف فئة';
+$message['category invalid']='صالح الفئة';
+$message['category child exists']='فشل الحذف. ';
+$message['category exists']='اسم الفئة المحددة موجودة بالفعل';
+$message['category delete message']='هل حقا تريد حذف الفئة؟';
+$message['category site exists']='المواقع المعينة لهذه الفئة. ';
+$message['please select a category']='الرجاء تحديد الفئة';
+$message['invalid url']='اسم الموقع غير صالح';
+$message['site name already exists']='اسم الموقع موجود مسبقا';
+$message['site add success']='لقد نجحت في إضافة موقع جديد';
+$message['site edit success']='لقد نجحت تحرير الموقع';
+$message['site status success']='كنت قد قمت بتحديث بنجاح وضع الموقع';
+$message['site delete success']='لقد بنجاح حذف الموقع';
+$message['site delete message']='هل حقا تريد حذف هذا الموقع؟ ';
+$message['site invalid']='الموقع غير صالح ID';
+$message['no active sites']='لا يوجد لديك المواقع المفعلة';
+$message['please select a targeting site']='الرجاء تحديد موقع الاستهداف';
+$message['all category targeted']='سوف تستهدف إعلانك لجميع الفئات';
+$message['successfully updated the category targeting']='كنت قد قمت بتحديث بنجاح فئة مستهدفة';
+$message['you cannot deactivate addon']='لا يمكنك إلغاء فئة تستهدف addon.Because الملحق برعاية يتطلب فئة تستهدف الملحق.';
+$message['site logo deleted']='لقد بنجاح حذف شعار الموقع';
+?>

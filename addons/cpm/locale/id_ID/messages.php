@@ -1,0 +1,25 @@
+<?php $message['cpm addon status successfully updated']='Anda telah berhasil perbarui status addon CPM';
+$message['cpm settings update success']='Anda telah berhasil diperbarui pengaturan addon CPM';
+$message['cpm adpricing activation success']='Anda telah berhasil diaktifkan harga iklan CPM';
+$message['cpm adpricing update success']='Anda telah berhasil diperbarui harga iklan CPM';
+$message['cpm account balance low']='Anda tidak memiliki saldo rekening pengiklan yang cukup';
+$message['cpm adpricing activation message']='CPM Ad aktivasi harga hanya diperbolehkan untuk iklan CPM aktif';
+$message['cpm profit percentage successfully updated']='Anda telah berhasil diperbarui CPM persentase keuntungan penerbit';
+$message['cpm modify impression & rate settings']='Silahkan memodifikasi cpm pengaturan anggaran &amp; tingkat';
+$message['cpm impression multiples']='CPM Tayangan harus kelipatan 1000';
+$message['budget greater than cpm rate']='anggaran CPM harus lebih besar dari atau sama dengan tingkat cpm';
+$message['cpm mapping cancel']='Apakah Anda benar-benar ingin membatalkan pemetaan CPM ini';
+$message['cpm modify budget settings']='Silakan memodifikasi anggaran cpm';
+$message['cpm adpricing cancellation success']='Anda telah berhasil membatalkan penetapan harga iklan CPM';
+$message['invalid cpm daily budget']='Anggaran harian CPM tidak valid';
+$message['daily budget less than cpm budget']='Anggaran harian harus kurang dari atau sama dengan anggaran CPM';
+$message['daily budget update success']='Anda telah berhasil diperbarui anggaran harian CPM';
+$message['cpm rate deducted']='Jika Anda mengaktifkan harga ini, anggaran CPM akan dipotong dari akun Anda';
+$message['cpm budget add message']='Jika Anda memperbarui anggaran CPM, jumlah Ditentukan akan dipotong dari akun Anda';
+$message['daily budget greater than cpm rate']='anggaran harian CPM harus lebih besar dari atau sama dengan tingkat cpm';
+$message['min cpm budget should greater than def cpm rate']='anggaran CPM minimum tidak boleh kurang dari tingkat CPM standar';
+$message['min cpm daily budget should greater than def cpm rate']='anggaran harian CPM minimum tidak boleh kurang dari tingkat CPM standar';
+$message['cpm rate less']='CPM tingkat &amp; anggaran harus lebih besar dari atau sama dengan {x}';
+$message['cpm budget less']='anggaran CPM harus lebih besar dari atau sama dengan {x}';
+$message['daily budget greater than minimum']='anggaran harian CPM harus lebih besar dari atau sama dengan {x}';
+?>

@@ -1,0 +1,21 @@
+<?php $label['interstitial']='διάμεση αγγελίες';
+$label['interstitial ads']='διάμεση αγγελίες';
+$label['interstitial activation']='διάμεση ενεργοποίησης';
+$label['interstitial skip interval']='Διάμεση Παράλειψη Διάστημα';
+$label['interstitial interval visitor']='Χρονικό Διάστημα B / W 2 Διάμεση / Επισκέπτης';
+$label['min']='Ελάχιστη';
+$label['sec']='Sec';
+$label['display skip button']='Εμφάνιση Παράλειψη Button';
+$label['skip button position']='Μετάβαση Button θέση';
+$label['top left']='Πάνω αριστερά';
+$label['top right']='Επάνω δεξιά';
+$label['bottom right']='Κάτω δεξιά';
+$label['bottom left']='Κάτω αριστερά';
+$label['skip ad']='Παράκαμψη διαφήμισης';
+$label['interstitial ad']='διάμεση διαφήμισης';
+$label['interstitials']='Διάμεσος';
+$label['interstitial banner']='διάμεση αγγελίες';
+$label['active interstitial ads']='Ενεργά Διάμεση αγγελίες';
+$label['pending interstitial ads']='Εν αναμονή της Διάμεση αγγελίες';
+$label['interstitial code']='Διάμεσος';
+?>

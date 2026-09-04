@@ -1,0 +1,21 @@
+<?php $label['interstitial']='межстраничные объявления';
+$label['interstitial ads']='межстраничные объявления';
+$label['interstitial activation']='Интерстициальный активации';
+$label['interstitial skip interval']='Интервал интерстициальный Пропустить';
+$label['interstitial interval visitor']='Временной интервал B / W 2 интерстициальный / посетителей';
+$label['min']='Min';
+$label['sec']='Sec';
+$label['display skip button']='Дисплей Пропустить Кнопка';
+$label['skip button position']='Пропустить Кнопка позиционирования';
+$label['top left']='Верхний левый';
+$label['top right']='В правом верхнем углу';
+$label['bottom right']='Внизу справа';
+$label['bottom left']='Нижняя левая';
+$label['skip ad']='Пропустить рекламу';
+$label['interstitial ad']='Интерстициальное объявление';
+$label['interstitials']='интерстициальный';
+$label['interstitial banner']='межстраничные объявления';
+$label['active interstitial ads']='Активные межстраничные объявления';
+$label['pending interstitial ads']='До межстраничных объявлений';
+$label['interstitial code']='интерстициальный';
+?>

@@ -1,0 +1,26 @@
+<?php $message['category targeting addon status successfully updated']='Anda telah berhasil diperbarui kategori menargetkan Status addon';
+$message['category targeting settings update success']='Anda telah berhasil diperbarui kategori penargetan addon';
+$message['category added']='Anda telah berhasil menambahkan kategori baru';
+$message['category edited']='Anda telah berhasil diedit kategori';
+$message['category deleted']='Anda telah berhasil dihapus kategori';
+$message['category invalid']='valid Kategori';
+$message['category child exists']='Penghapusan gagal. ';
+$message['category exists']='nama kategori yang ditentukan sudah ada';
+$message['category delete message']='Apakah Anda benar-benar ingin menghapus kategori?';
+$message['category site exists']='Situs dipetakan ke kategori ini. ';
+$message['please select a category']='Silakan pilih kategori';
+$message['invalid url']='nama situs tidak valid';
+$message['site name already exists']='Nama situs sudah ada';
+$message['site add success']='Anda telah berhasil menambahkan situs baru';
+$message['site edit success']='Anda telah berhasil diedit situs';
+$message['site status success']='Anda telah berhasil diperbarui status situs';
+$message['site delete success']='Anda telah berhasil dihapus situs';
+$message['site delete message']='Apakah Anda benar-benar ingin menghapus situs ini? ';
+$message['site invalid']='Situs tidak valid ID';
+$message['no active sites']='Anda tidak memiliki situs aktif';
+$message['please select a targeting site']='Pilih situs penargetan';
+$message['all category targeted']='Iklan Anda akan ditargetkan untuk semua kategori';
+$message['successfully updated the category targeting']='Anda telah berhasil diperbarui kategori menargetkan';
+$message['you cannot deactivate addon']='Anda tidak dapat menonaktifkan kategori menargetkan addon.Because disponsori addon membutuhkan kategori menargetkan addon.';
+$message['site logo deleted']='Anda telah berhasil menghapus logo situs';
+?>

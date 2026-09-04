@@ -1,0 +1,19 @@
+<?php $label['2co']='2о';
+$label['checkout']='2о';
+$label['2co activation']='2о активации';
+$label['update']='Обновить';
+$label['2co sid']='2о Sid';
+$label['2co secret word']='2о секретное слово';
+$label['pay with 2co']='Оплатить с 2CO';
+$label['2co details']='2о Подробнее';
+$label['2co payment report']='2о Оплата Отчет';
+$label['your 2co transaction is completed']='Ваша транзакция 2о завершена';
+$label['2co order id']='Продажа Id';
+$label['2co invoice id']='Id счета';
+$label['credit card processed']='Кредитные карты Обработанные';
+$label['payment name']='Оплата Имя';
+$label['payment status']='Статус платежа';
+$label['approved']='утвержденный';
+$label['not approved']='Не одобрено';
+$label['configure ipn url']='Примечание: Пожалуйста, настройте «{х}» в INS Настройка 2о счета в Приказе создания и состояния Мошенничество Изменено раздела.';
+?>

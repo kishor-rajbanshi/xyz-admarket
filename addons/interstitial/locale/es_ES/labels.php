@@ -1,0 +1,21 @@
+<?php $label['interstitial']='anuncios intersticiales';
+$label['interstitial ads']='anuncios intersticiales';
+$label['interstitial activation']='La activación intersticial';
+$label['interstitial skip interval']='Intersticial intervalo de salto';
+$label['interstitial interval visitor']='Intervalo de tiempo de B / W 2 intersticial / Visitante';
+$label['min']='min';
+$label['sec']='Segundo';
+$label['display skip button']='Visualización del botón de Saltar';
+$label['skip button position']='Saltar posición del botón';
+$label['top left']='Arriba a la izquierda';
+$label['top right']='Parte superior derecha';
+$label['bottom right']='Abajo a la derecha';
+$label['bottom left']='abajo a la izquierda';
+$label['skip ad']='Omitir aviso publicitario';
+$label['interstitial ad']='anuncio intersticial';
+$label['interstitials']='intersticial';
+$label['interstitial banner']='anuncios intersticiales';
+$label['active interstitial ads']='Activos anuncios intersticiales';
+$label['pending interstitial ads']='A la espera de anuncios intersticiales';
+$label['interstitial code']='intersticial';
+?>

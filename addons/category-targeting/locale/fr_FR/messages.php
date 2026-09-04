@@ -1,0 +1,26 @@
+<?php $message['category targeting addon status successfully updated']='Vous avez réussi la catégorie mise à jour le statut de ciblage addon';
+$message['category targeting settings update success']='Vous avez mis à jour avec succès catégorie paramètres de ciblage addon';
+$message['category added']='Vous venez d\'ajouter la nouvelle catégorie';
+$message['category edited']='Vous avez édité avec succès la catégorie';
+$message['category deleted']='Vous avez supprimé avec succès la catégorie';
+$message['category invalid']='Catégorie non valide';
+$message['category child exists']='La suppression a échoué. ';
+$message['category exists']='Le nom de catégorie spécifié existe déjà';
+$message['category delete message']='Voulez-vous vraiment supprimer la catégorie?';
+$message['category site exists']='Sites mappés à cette catégorie. ';
+$message['please select a category']='Veuillez sélectionner une catégorie';
+$message['invalid url']='Nom du site non valide';
+$message['site name already exists']='Nom du site existe déjà';
+$message['site add success']='Vous venez d\'ajouter un nouveau site';
+$message['site edit success']='Vous avez édité avec succès le site';
+$message['site status success']='Vous avez mis à jour le statut du site';
+$message['site delete success']='Vous avez supprimé avec succès le site';
+$message['site delete message']='Voulez-vous vraiment supprimer ce site? ';
+$message['site invalid']='Site non valide ID';
+$message['no active sites']='Vous avez pas de site actif';
+$message['please select a targeting site']='S\'il vous plaît sélectionner un site de ciblage';
+$message['all category targeted']='Votre annonce sera ciblée à toutes les catégories';
+$message['successfully updated the category targeting']='Vous avez mis à jour la catégorie de ciblage';
+$message['you cannot deactivate addon']='Vous ne pouvez pas désactiver le ciblage par catégorie addon parrainé addon.Because nécessite addon ciblage par catégorie.';
+$message['site logo deleted']='Vous avez supprimé avec succès le logo du site';
+?>
